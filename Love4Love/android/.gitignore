@@ -1,0 +1,58 @@
+# Android
+/android/gradle.properties
+/android/app/keystore.jks
+/android/key.properties
+/android/local.properties
+/android/.gradle
+/android/captures/
+/android/gradlew
+/android/gradlew.bat
+/android/build/
+/android/app/build/
+/android/app/.cxx/
+
+# iOS
+/ios/Flutter/GeneratedPluginRegistrant.*
+/ios/.symlinks/
+/ios/Flutter/flutter_export_environment.sh
+/ios/Pods/
+/ios/.generated/
+
+# General
+/.gradle
+/gradle-wrapper.jar
+/captures/
+/local.properties
+GeneratedPluginRegistrant.java
+.cxx/
+*.iml
+*.log
+*.lock
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Never commit keystore files
+**/*.keystore
+**/*.jks
+**/*.key
+**/*.p12
+
+# Flutter/Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+.flutter/
+.fvm/
+
+# IDE specific
+.idea/
+.vscode/
+*.sw?
+*.swo
+*.swn

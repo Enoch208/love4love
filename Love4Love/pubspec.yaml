@@ -1,0 +1,60 @@
+name: love4love
+description: A playful and modern dating app.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  card_swiper: ^3.0.1
+  intl: ^0.20.2
+  flutter_local_notifications: ^19.2.1
+
+  # Firebase core packages
+  firebase_core: ^3.14.0
+  firebase_auth: ^5.6.0
+  cloud_firestore: ^5.6.9
+  firebase_messaging: ^15.2.7
+  shimmer: ^3.0.0
+
+  # Other useful dependencies
+  provider: ^6.1.2
+  get: ^4.6.6
+  google_fonts: ^6.2.0
+  email_validator: ^3.0.0
+  geolocator: ^14.0.1
+  flutter_launcher_icons: ^0.14.4
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/love4love.jpeg"
+  adaptive_icon_background: "assets/love4love.jpeg"
+  adaptive_icon_foreground: "assets/love4love.jpeg"
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: fonts/Poppins-Regular.ttf
+        - asset: fonts/Poppins-Bold.ttf
+          weight: 700
+
+  assets:
+    - assets/love4love.jpeg  # ✅ Ensuring the logo is included
+    - assets/profile1.jpeg
+    - assets/profile2.jpeg
+    - assets/profile3.jpeg
+    - assets/profile4.jpeg
+    - assets/profile5.jpeg

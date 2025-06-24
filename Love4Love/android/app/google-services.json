@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "1008846494626",
+    "project_id": "love4love-d7579",
+    "storage_bucket": "love4love-d7579.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1008846494626:android:7fbe7161538fd148ee30fb",
+        "android_client_info": {
+          "package_name": "com.example.love4love"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1008846494626-c0di7b2lsvg4j6bk8njac0vs99g3teqf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.love4love",
+            "certificate_hash": "a1b8fff8f8861078f52b30cb2aeef3b698279302"
+          }
+        },
+        {
+          "client_id": "1008846494626-ng6hqlpt0t6ao85of61ev6hs294mq1q8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBN38wJ8d7NQp2B4X1iVqk_cVMnCuFVd0k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1008846494626-ng6hqlpt0t6ao85of61ev6hs294mq1q8.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1008846494626-74kd4hengirmrkgen8373gcuiekdidgt.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.myProject"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
